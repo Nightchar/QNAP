@@ -10,7 +10,8 @@ public class CommonUtils {
 
     /**
      * Check if password is valid or not.
-     * @param password
+     *
+     * @param password the password string
      * @return
      */
     public static boolean isPasswordValid(CharSequence password) {
