@@ -12,7 +12,7 @@ public class CommonUtils {
      * Check if password is valid or not.
      *
      * @param password the password string
-     * @return
+     * @return return if password valid
      */
     public static boolean isPasswordValid(CharSequence password) {
         return TextUtils.isEmpty(password);
