@@ -18,6 +18,12 @@ public class CommonUtils {
         return TextUtils.isEmpty(password);
     }
 
+    /**
+     * Check if email is valid or not.
+     *
+     * @param email
+     * @return
+     */
     public static boolean isEmailValid(String email) {
         return TextUtils.isEmpty(email);
     }
