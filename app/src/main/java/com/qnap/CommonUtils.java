@@ -17,4 +17,8 @@ public class CommonUtils {
     public static boolean isPasswordValid(CharSequence password) {
         return TextUtils.isEmpty(password);
     }
+
+    public static boolean isEmailValid(String email) {
+        return TextUtils.isEmpty(email);
+    }
 }
