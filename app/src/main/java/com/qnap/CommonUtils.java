@@ -8,6 +8,11 @@ import android.text.TextUtils;
 
 public class CommonUtils {
 
+    /**
+     * Check if password is valid or not.
+     * @param password
+     * @return
+     */
     public static boolean isPasswordValid(CharSequence password) {
         return TextUtils.isEmpty(password);
     }
